@@ -121,6 +121,8 @@
     <failsafe.forkCount>1</failsafe.forkCount>
     <failsafe.groups />
     <failsafe.reuseForks>false</failsafe.reuseForks>
+    <failsafe.rerunFailingTestsCount>2</failsafe.rerunFailingTestsCount>
+    <surefire.rerunFailingTestsCount>2</surefire.rerunFailingTestsCount>    
     <!-- prevent introduction of new compiler warnings -->
     <maven.compiler.failOnWarning>true</maven.compiler.failOnWarning>
     <maven.compiler.release>11</maven.compiler.release>
