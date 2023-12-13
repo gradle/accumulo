@@ -120,9 +120,8 @@
     <failsafe.failIfNoSpecifiedTests>false</failsafe.failIfNoSpecifiedTests>
     <failsafe.forkCount>1</failsafe.forkCount>
     <failsafe.groups />
-    <failsafe.reuseForks>false</failsafe.reuseForks>
     <failsafe.rerunFailingTestsCount>2</failsafe.rerunFailingTestsCount>
-    <surefire.rerunFailingTestsCount>2</surefire.rerunFailingTestsCount>    
+    <failsafe.reuseForks>false</failsafe.reuseForks>
     <!-- prevent introduction of new compiler warnings -->
     <maven.compiler.failOnWarning>true</maven.compiler.failOnWarning>
     <maven.compiler.release>11</maven.compiler.release>
@@ -145,6 +144,7 @@
     <surefire.failIfNoSpecifiedTests>false</surefire.failIfNoSpecifiedTests>
     <surefire.forkCount>1C</surefire.forkCount>
     <surefire.groups />
+    <surefire.rerunFailingTestsCount>2</surefire.rerunFailingTestsCount>
     <surefire.reuseForks>true</surefire.reuseForks>
     <unitTestMemSize>-Xmx1G</unitTestMemSize>
     <!-- dependency and plugin versions managed with properties -->

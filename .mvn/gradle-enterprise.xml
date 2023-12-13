@@ -24,7 +24,7 @@
     <!-- adjust depending on whether trusted cert is already configured in GE: -->
   </server>
   <buildScan>
-    <publish>false</publish>
+    <publish>ALWAYS</publish>
     <capture>
       <goalInputFiles>false</goalInputFiles>
     </capture>
